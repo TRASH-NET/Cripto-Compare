@@ -1,0 +1,17 @@
+
+.app{
+    max-width: 900px;
+    margin: auto;
+    width: 90%;
+    &__image{
+        max-width: 400px;
+        width: 80%;
+        margin: 100px auto 0 auto;
+        display: block;
+    }
+    @media screen and (min-width: 992px){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}

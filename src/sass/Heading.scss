@@ -1,0 +1,19 @@
+@use 'variables' as v;
+
+.heading{
+    font-family: v.$font1;
+    color: v.$white;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 34px;
+    &::after {
+        content: '';
+        width: 100px;
+        height: 6px;
+        background-color: v.$blue-soft;
+        display: block;
+        margin: 10px auto 0 auto;
+    }
+}
